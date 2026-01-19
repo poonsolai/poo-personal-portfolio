@@ -1,0 +1,80 @@
+
+.carousel-indicators li::marker{
+    content:"";
+} 
+
+#Projects{
+    margin-top: 50px;
+}
+#container{
+    text-align: end;
+}
+#container span:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+.card{
+    cursor: pointer;
+    text-align: start;
+    /* height: 500px; */
+}
+.taglist{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 5px;
+    align-items:center ;
+}
+.taglist li{
+    display: inline;
+    background-color: #1E90FF;
+    color: #C9D6FF;
+    border-radius:10px ;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btns a{
+    text-decoration: none;
+    color: rgb(24, 8, 5);
+    /* font-size: 18px; */
+}
+.btns .btn1{
+    background:linear-gradient(blue,rgb(203, 215, 203));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btns .btn2{
+    background:linear-gradient(rgb(225, 225, 248),rgb(121, 199, 121));
+    color: rgb(88, 85, 85);
+    cursor: pointer;
+}
+.btns .btn1:hover{
+    background:linear-gradient(rgb(225, 225, 248),rgb(121, 199, 121));
+    
+}
+.btns .btn2:hover{
+    background:linear-gradient(blue,rgb(203, 215, 203));
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width:567px) and (max-width:990px){
+   .btns .btn{
+    font-size: 10px;
+   }
+}
+@media all and  (min-width:900px){
+.carousel-inner {
+    height: 500px;
+}
+ #carouselId{
+    height: 600px;
+}
+.card-img-top{
+    height: 200px;
+}
+}
