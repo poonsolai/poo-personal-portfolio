@@ -1,3 +1,26 @@
-.a1{
-    border: 2px solid red;
+/* .a1{
+    border: 2px solid rgb(238, 230, 230);
+} */
+.about-box{
+    /* border: 2px solid rgb(164, 218, 3); */
+    text-align: center;
+    background-color: #091136;
+    border-radius: 10px;
+    /* line-height: 10px; */
+    padding: 10px;
+    margin-top: 10px;
+}
+.about-box-final{
+    padding: 10px 10px 0px 10px;
+    border-left: 5px solid yellow;
+    background-color: #091136;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.about-box-final h4{
+    color: rgb(229, 41, 188);
+}
+.about-box-final ul{
+    list-style-type: none;
+    padding-bottom: 5px;
 }

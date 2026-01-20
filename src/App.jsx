@@ -5,6 +5,7 @@ import { Skils } from './components/Skils'
 import './App.css'
 import { Certificate } from './components/Certificate'
 import About from './components/About'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
       <Projects/><hr />
       <Skils/> 
       <Certificate/><hr />
-      <About/>
+      <About/> <hr />
+      <Contact />
     </>
   )
 }
