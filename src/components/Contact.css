@@ -8,6 +8,8 @@
     border-radius: 10px;
     line-height: 10px;
     column-gap: 15px;
+    text-decoration: none;
+    color: white;
 }
 .mail-box .icon{
     width: 40px;
@@ -17,10 +19,56 @@
     width: 50px;
     height: 50px;
 }
+.form-box{
+    background-color: #091136;
+    padding: 10px;
+}
+#area{
+    width: 100%;
+    /* height: 20vw; */
+    outline: none;
+}
+.btns{
+    display: flex;
+    justify-content: start;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.btns button{
+    padding: 5px 10px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    color:firebrick;
+    border-radius: 10px;
+
+}
+.btns button:hover{
+    border: 1px solid rgb(238, 238, 57);
+    background-color: rgb(238, 238, 57);
+}
+input{
+    width: 100%;
+    outline: none;
+}
 .work-box{
     background-color: #091136;
     margin-top: 10px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     text-align: center;
+}
+
+@media (min-width:560px) and (max-width:900px){
+    .mail-box p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
+@media all and (max-width:500px){
+    .para{
+        font-size: 14px;
+        line-height: 15px;
+    }
 }

@@ -24,3 +24,13 @@
     list-style-type: none;
     padding-bottom: 5px;
 }
+.about-box-final ul{
+    margin-left: -30px;
+}
+.about-box-final h3{
+    color: rgb(234, 5, 196);
+}
+/* .about-box-final{
+    display: flex;
+
+} */
