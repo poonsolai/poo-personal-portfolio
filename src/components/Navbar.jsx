@@ -8,7 +8,7 @@ export const Navbar = () => {
     <div >
         <nav className="navbar navbar-expand-sm fixed-top" id='nav'>
             <div className="container-fluid">
-                <a className="navbar-brand">Portfolio</a>
+                <a className="navbar-brand" style={{color:"orange"}}>Portfolio</a>
                 <button className="navbar-toggler btntoggle"  data-bs-toggle="collapse" data-bs-target="#collapsibleNavId">
                     <span className="navbar-toggler-icon "></span>
                 </button>

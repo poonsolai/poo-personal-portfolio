@@ -1,5 +1,5 @@
-import {   faEnvira, faRProject,faStackOverflow,faXbox } from '@fortawesome/free-brands-svg-icons'
-import {   faBrain, faCompass, faCube, faCubes, faIcons, faLaptopCode, faLayerGroup, faUserGraduate } from '@fortawesome/free-solid-svg-icons'
+import {   faXbox } from '@fortawesome/free-brands-svg-icons'
+import {   faBrain, faCompass, faIcons, faLaptopCode, faLayerGroup, faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 import './About.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
@@ -50,6 +50,9 @@ function Aboutme2(){
                     <li>Bachelor of Technology - Information Technology (B.Tech IT),</li>
                     <li>Shreenivasa Engineering College,</li>
                     <li>Graduated: 2027 | CGPA: 8.5 / 10</li>
+                    <br />
+                    <li>Higher Secondary School </li>
+                    <li>completed (2021 - 2023)</li>
                 </ul>
             </div>
             <div className='about-box-final pb-1' style={{borderLeft:"5px solid pink"}}>

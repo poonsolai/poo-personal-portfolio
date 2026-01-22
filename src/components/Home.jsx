@@ -16,13 +16,13 @@ applications. I work with both front-end and
 back-end technologies to create complete,
 scalable solutions. I enjoy turning ideas into real,
 working products..</p>
-        <button className="btn "><a href={resume} target="_blank">Check Reaume</a></button>
+        <button className="btn "><a href={resume} target="_blank">Check Resume</a></button>
       </div>
     )
 }
 const Image = () =>{
     return(
-      <div className="img-box col-md-6">
+      <div className="img-box col-md-6 mb-5">
         <img src={myimage} alt="poonsolai" className=" img-thumbnail"/>
       </div>
     )

@@ -204,9 +204,9 @@ function Cartimage(){
 
 export const Projects = () => {
   return (
-    <div id='Projects' >
+    <div id='Projects'>
         <h1 className=' text-center'>Fatured Projects</h1>
-        <p className=' text-center'>Academic and personal projects demonstrating my learning journey and practical skils.</p>
+        <p className=' text-center '>Academic and personal projects demonstrating my learning journey and practical skils.</p>
         <Imagebar/>
         <Cartimage />
     </div>

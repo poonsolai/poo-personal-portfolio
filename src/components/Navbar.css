@@ -19,10 +19,10 @@ nav{
 .collapse ul li a{
     color: #38BDF8;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 .collapse ul li a:hover{
-    color: #096a93;
-    font-size: 22px;
+    color: #ff7300;
 }
 .navbar-brand{
     color:#F8FAFC;
@@ -65,9 +65,7 @@ nav{
     .collapse ul li a{
         font-size: 12px;
     }
-    .collapse ul li a:hover{
-        font-size: 15px;
-    }
+  
     #collapsibleNavId ul li{
         margin-left:10px ;
     }

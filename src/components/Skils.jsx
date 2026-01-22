@@ -55,11 +55,11 @@ export const Skils = () => {
         <h1 className=' text-center'>Skills & Technologies</h1>
         <p className=' text-center'>Technologies I've learned and practiced through coursework, online tutorials, and personal projects</p>
         <div className="text-center container mt-5" >
-            <button className="btn px-3 ms-1" onClick={Front}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Frontend</button>
-            <button className="btn px-3 ms-1" onClick={Back}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Backend</button>
-            <button className="btn px-3 ms-1" onClick={Design}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Design</button>
-            <button className="btn px-3 ms-1" onClick={Tools}><FontAwesomeIcon icon={faDartLang}  ></FontAwesomeIcon>Tools</button>
-            <button className="btn px-3 ms-1" onClick={Other}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Others</button>
+            <button className="btn px-3 ms-1" onClick={Front} style={{backgroundColor:front?"orange":"",color:front?"white":""}}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Frontend</button>
+            <button className="btn px-3 ms-1" onClick={Back} style={{backgroundColor:back?"orange":"",color:back?"white":""}}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Backend</button>
+            <button className="btn px-3 ms-1" onClick={Design} style={{backgroundColor:design?"orange":"",color:design?"white":""}}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Design</button>
+            <button className="btn px-3 ms-1" onClick={Tools} style={{backgroundColor:tools?"orange":"",color:tools?"white":""}}><FontAwesomeIcon icon={faDartLang}  ></FontAwesomeIcon>Tools</button>
+            <button className="btn px-3 ms-1" onClick={Other} style={{backgroundColor:others?"orange":"",color:others?"white":""}}><FontAwesomeIcon icon={faDartLang} ></FontAwesomeIcon>Others</button>
         </div>
         {/* Frontend */}
 
