@@ -137,18 +137,18 @@ export const Skils = () => {
             <div>
                 <div className='mt-2'>
                     <div className="box">
-                        <h5 className="Tname">NODE.JS</h5> <h4 className="percentage">20%</h4>
+                        <h5 className="Tname">NODE.JS</h5> <h4 className="percentage">40%</h4>
                     </div>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style={{width:"20%"}}></div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style={{width:"40%"}}></div>
                     </div>   
                 </div>
                 <div className='mt-2'>
                     <div className="box">
-                        <h5 className="Tname">EXPRESS.JS</h5> <h4 className="percentage">0%</h4>
+                        <h5 className="Tname">EXPRESS.JS</h5> <h4 className="percentage">40%</h4>
                     </div>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style={{width:"0%"}}></div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style={{width:"40%"}}></div>
                     </div>   
                 </div>
                 <div className='mt-2'>
@@ -177,7 +177,7 @@ export const Skils = () => {
                 </div>
                 <div className='mt-2'>
                     <div className="box">
-                        <h4 className="Tname">REST API</h4> <h4 className="percentage">0%</h4>
+                        <h4 className="Tname">REST API</h4> <h4 className="percentage">50%</h4>
                     </div>
                     <div className="progress">
                         <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style={{width:"0%"}}></div>
@@ -328,7 +328,7 @@ export const Skils = () => {
                         <h5 className="Tname">GOOD COMMUNUCATION</h5> <h4 className="percentage">50%</h4>
                     </div>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:"50%",backgroundColor:"tomato"}}> Tamil English Korea</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:"50%",backgroundColor:"tomato"}}></div>
                     </div>   
                 </div>
                 <div className='mt-2'>
