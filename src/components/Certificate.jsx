@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Certificate.css'
 import {  faMagento } from '@fortawesome/free-brands-svg-icons'
 import frontendCetificate from '../assets/Frontend certi.pdf'
-import jscertificate from '../assets/jscertificate.pdf'
+import jscertificate from '../assets/Jscertificate.pdf'
 
 export const Certificate = () => {
 
