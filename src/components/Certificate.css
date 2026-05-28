@@ -1,0 +1,14 @@
+.archive{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.archive div{
+    border: 1px solid gray;
+}
+.archive a{
+    text-decoration: none;
+    color: white;
+}
